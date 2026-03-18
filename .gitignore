@@ -1,12 +1,7 @@
-# Virtual environment
-.venv/
-venv/
-ENV/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# IDE
+.venv/
+venv/
+.pytest_cache/
 .vscode/
-.idea/
+admin.json        # если файл содержит секретыadmin.json
